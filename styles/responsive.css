@@ -376,6 +376,8 @@
 	.general_info_content
 	{
 		height: calc(100vw - 160px);
+		padding-left: 40px;
+		padding-top: 25px
 	}
 	.general_info_title
 	{
@@ -495,6 +497,8 @@
 	.general_info_content
 	{
 		height: calc(100vw - 160px);
+		padding-left: 40px;
+		padding-top: 25px
 	}
 	.general_info_title
 	{
@@ -612,6 +616,8 @@
 		.general_info_content
 	{
 		height: calc(100vw - 160px);
+		padding-left: 40px;
+		padding-top: 25px
 	}
 	.general_info_title
 	{
@@ -728,9 +734,11 @@
 	{
 		height: calc(100vw - 100px);
 	}
-		.general_info_content
+	.general_info_content
 	{
 		height: calc(100vw - 160px);
+		padding-left: 40px;
+		padding-top: 25px
 	}
 	.general_info_title
 	{
