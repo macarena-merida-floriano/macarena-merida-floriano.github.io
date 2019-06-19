@@ -340,7 +340,11 @@
 	}
 	.logo
 	{
-		font-size: 16px;
+		font-size: 14px;
+	}
+		.header.scrolled .logo
+	{
+		font-size: 14px;
 	}
 	.menu
 	{
@@ -367,7 +371,7 @@
 	}
 	.general_info_image
 	{
-		height: calc(100vw - 60px);
+		height: calc(100vw - 80px);
 	}
 	.main_content
 	{
@@ -424,6 +428,10 @@
 	{
 		font-size: 16px;
 	}
+		.header.scrolled .logo
+	{
+		font-size: 14px;
+	}
 	.menu
 	{
 		height: 380px;
@@ -449,7 +457,7 @@
 	}
 	.general_info_image
 	{
-		height: calc(100vw - 60px);
+		height: calc(100vw - 80px);
 	}
 	.main_content
 	{
@@ -502,7 +510,11 @@
 	}
 	.logo
 	{
-		font-size: 16px;
+		font-size: 14px;
+	}
+		.header.scrolled .logo
+	{
+		font-size: 14px;
 	}
 	.menu
 	{
@@ -529,7 +541,7 @@
 	}
 	.general_info_image
 	{
-		height: calc(100vw - 60px);
+		height: calc(100vw - 80px);
 	}
 	.main_content
 	{
@@ -583,8 +595,13 @@
 	}
 	.logo
 	{
-		font-size: 16px;
+		font-size: 14px;
 	}
+	.header.scrolled .logo
+	{
+		font-size: 14px;
+	}
+
 	.menu
 	{
 		height: 380px;
@@ -610,7 +627,7 @@
 	}
 	.general_info_image
 	{
-		height: calc(100vw - 60px);
+		height: calc(100vw - 80px);
 	}
 	.main_content
 	{
