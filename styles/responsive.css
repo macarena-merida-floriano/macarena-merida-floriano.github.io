@@ -260,7 +260,7 @@
 	}
 	.logo
 	{
-		font-size: 24px;
+		font-size: 20px;
 	}
 	.menu
 	{
@@ -287,7 +287,7 @@
 	}
 	.general_info_image
 	{
-		height: calc(100vw - 30px);
+		height: calc(100vw - 40px);
 	}
 	.main_content
 	{
@@ -304,7 +304,7 @@
 	}
 	.main_title
 	{
-		font-size: 36px;
+		font-size: 30px;
 	}
 	.main_subtitle
 	{
