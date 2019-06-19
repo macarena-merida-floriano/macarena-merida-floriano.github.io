@@ -515,6 +515,11 @@ section
 	padding-left: 82px;
 	padding-right: 30px;
 }
+.main_twitter_container
+{
+    width: 25%;
+    height: 100%
+}
 .main_title_container
 {
 	width: 100%;
