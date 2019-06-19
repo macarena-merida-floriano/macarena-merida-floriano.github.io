@@ -281,10 +281,10 @@ section
 }
 .logo
 {
-	font-size: 36px;
-	font-weight: 800;
+	font-size: 20px;
+	font-weight: 600;
 	color: #100f3a;
-	margin-right: 48px;
+	margin-right: 30px;
 	margin-top: -5px;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
@@ -641,8 +641,8 @@ section
 }
 .main_title
 {
-	font-size: 72px;
-	font-weight: 800;
+	font-size: 70px;
+	font-weight: 600;
 	color: #100f3a;
 	line-height: 0.75;
 	margin-top: 15px;
@@ -697,10 +697,10 @@ section
 }
 .exp_title
 {
-	font-size: 24px;
-	font-weight: 700;
+	font-size: 20px;
+	font-weight: 600;
 	color: #100f3a;
-	line-height: 0.75;
+	line-height: 0.85;
 }
 .exp_subtitle
 {
