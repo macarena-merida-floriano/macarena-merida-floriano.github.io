@@ -377,7 +377,35 @@
 	{
 		height: calc(100vw - 160px);
 	}
-	
+	.general_info_title
+	{
+		font-size: 20px;
+		font-weight: 500;
+		color: #FFFFFF;
+		line-height: 1.2;
+	}
+	.general_info_list
+	{
+		margin-top: 20px;
+	}
+	.general_info_list li:not(:last-child)
+	{
+		margin-bottom: 10px;
+	}
+	.general_info_icon
+	{
+		width: 21px;
+		height: 21px;
+		margin-right: 10px;
+	}
+
+	.general_info_text,
+	.general_info_text a
+	{
+		font-size: 12px;
+		color: #7a798c;
+		line-height: 0.5;
+}
 	.main_content
 	{
 		padding-left: 30px;
