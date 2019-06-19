@@ -562,12 +562,12 @@ section
 .about_title
 {
 	font-size: 30px;
-	font-weight: 700;
+	font-weight: 500;
 	color: #100f3a;
 }
 .about_text
 {
-	margin-top: 31px;
+	margin-top: 25px;
 }
 .loaders
 {

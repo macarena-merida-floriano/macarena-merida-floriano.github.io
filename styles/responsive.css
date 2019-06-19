@@ -316,6 +316,12 @@
 	}
 }
 
+
+
+
+
+
+
 /************
 11. 539px
 ************/
@@ -324,7 +330,7 @@
 {
 	p
 	{
-		font-size: 13px;
+		font-size: 12px;
 	}
 	.super_container
 	{
@@ -340,16 +346,16 @@
 	}
 	.logo
 	{
-		font-size: 12px;
+		font-size: 10px;
 	}
 		.header.scrolled .logo
 	{
-		font-size: 12px;
+		font-size: 10px;
 	}
 	.menu
 	{
-		height: 380px;
-		width: 220px;
+		height: 200px;
+		width: 100px;
 	}
 	.menu.active,
 	.header.scrolled .menu.active
@@ -371,7 +377,7 @@
 	}
 	.general_info_image
 	{
-		height: calc(100vw - 100px);
+		height: calc(100vw - 130px);
 	}
 	.general_info_content
 	{
@@ -384,11 +390,11 @@
 		font-size: 20px;
 		font-weight: 500;
 		color: #FFFFFF;
-		line-height: 1.2;
+		line-height: 0.8; 
 	}
 	.general_info_list
 	{
-		margin-top: 20px;
+		margin-top: 10px;
 	}
 	.general_info_list li:not(:last-child)
 	{
@@ -396,8 +402,8 @@
 	}
 	.general_info_icon
 	{
-		width: 21px;
-		height: 21px;
+		width: 18px;
+		height: 18px;
 		margin-right: 10px;
 	}
 
@@ -419,19 +425,19 @@
 	}
 	.main_title_container
 	{
-		height: 153px;
+		height: 145px;
 	}
 	.main_title
 	{
-		font-size: 24px;
+		font-size: 20px;
 	}
 	.main_subtitle
 	{
-		font-size: 18px;
+		font-size: 16px;
 	}
 	.about_title
 	{
-		font-size: 24px;
+		font-size: 20px;
 	}
 	
 }
@@ -490,9 +496,9 @@
 	{
 		font-size: 14px;
 	}
-	.general_info_image
+		.general_info_image
 	{
-		height: calc(100vw - 100px);
+		height: calc(100vw - 130px);
 	}
 	.general_info_content
 	{
@@ -505,11 +511,11 @@
 		font-size: 20px;
 		font-weight: 500;
 		color: #FFFFFF;
-		line-height: 1.2;
+		line-height: 0.8; 
 	}
 	.general_info_list
 	{
-		margin-top: 20px;
+		margin-top: 10px;
 	}
 	.general_info_list li:not(:last-child)
 	{
@@ -517,8 +523,8 @@
 	}
 	.general_info_icon
 	{
-		width: 21px;
-		height: 21px;
+		width: 18px;
+		height: 18px;
 		margin-right: 10px;
 	}
 
@@ -540,20 +546,21 @@
 	}
 	.main_title_container
 	{
-		height: 153px;
+		height: 145px;
 	}
 	.main_title
 	{
-		font-size: 24px;
+		font-size: 20px;
 	}
 	.main_subtitle
 	{
-		font-size: 18px;
+		font-size: 16px;
 	}
 	.about_title
 	{
-		font-size: 24px;
+		font-size: 20px;
 	}
+	
 }
 
 /************
@@ -611,9 +618,9 @@
 	}
 	.general_info_image
 	{
-		height: calc(100vw - 100px);
+		height: calc(100vw - 130px);
 	}
-		.general_info_content
+	.general_info_content
 	{
 		height: calc(100vw - 160px);
 		padding-left: 40px;
@@ -624,11 +631,11 @@
 		font-size: 20px;
 		font-weight: 500;
 		color: #FFFFFF;
-		line-height: 1.2;
+		line-height: 0.8; 
 	}
 	.general_info_list
 	{
-		margin-top: 20px;
+		margin-top: 10px;
 	}
 	.general_info_list li:not(:last-child)
 	{
@@ -636,8 +643,8 @@
 	}
 	.general_info_icon
 	{
-		width: 21px;
-		height: 21px;
+		width: 18px;
+		height: 18px;
 		margin-right: 10px;
 	}
 
@@ -659,19 +666,19 @@
 	}
 	.main_title_container
 	{
-		height: 153px;
+		height: 145px;
 	}
 	.main_title
 	{
-		font-size: 24px;
+		font-size: 20px;
 	}
 	.main_subtitle
 	{
-		font-size: 18px;
+		font-size: 16px;
 	}
 	.about_title
 	{
-		font-size: 24px;
+		font-size: 20px;
 	}
 	
 }
@@ -732,7 +739,7 @@
 	}
 	.general_info_image
 	{
-		height: calc(100vw - 100px);
+		height: calc(100vw - 130px);
 	}
 	.general_info_content
 	{
@@ -745,11 +752,11 @@
 		font-size: 20px;
 		font-weight: 500;
 		color: #FFFFFF;
-		line-height: 1.2;
+		line-height: 0.8; 
 	}
 	.general_info_list
 	{
-		margin-top: 20px;
+		margin-top: 10px;
 	}
 	.general_info_list li:not(:last-child)
 	{
@@ -757,8 +764,8 @@
 	}
 	.general_info_icon
 	{
-		width: 21px;
-		height: 21px;
+		width: 18px;
+		height: 18px;
 		margin-right: 10px;
 	}
 
@@ -780,19 +787,19 @@
 	}
 	.main_title_container
 	{
-		height: 153px;
+		height: 145px;
 	}
 	.main_title
 	{
-		font-size: 24px;
+		font-size: 20px;
 	}
 	.main_subtitle
 	{
-		font-size: 18px;
+		font-size: 16px;
 	}
 	.about_title
 	{
-		font-size: 24px;
+		font-size: 20px;
 	}
 	
 }
