@@ -346,11 +346,11 @@
 	}
 	.logo
 	{
-		font-size: 10px;
+		font-size: 8px;
 	}
 		.header.scrolled .logo
 	{
-		font-size: 10px;
+		font-size: 8px;
 	}
 	.menu
 	{
@@ -381,7 +381,7 @@
 	}
 	.general_info_content
 	{
-		height: calc(100vw - 160px);
+		height: calc(100vw - 140px);
 		padding-left: 40px;
 		padding-top: 25px
 	}
@@ -398,7 +398,7 @@
 	}
 	.general_info_list li:not(:last-child)
 	{
-		margin-bottom: 10px;
+		margin-bottom: 5px;
 	}
 	.general_info_icon
 	{
@@ -430,6 +430,7 @@
 	.main_title
 	{
 		font-size: 20px;
+		margin-top: 5px;
 	}
 	.main_subtitle
 	{
@@ -438,6 +439,11 @@
 	.about_title
 	{
 		font-size: 20px;
+		margin-top: 10px;
+	}
+	.about_text
+	{
+		margin-top: 25px;
 	}
 	
 }
@@ -496,13 +502,13 @@
 	{
 		font-size: 14px;
 	}
-		.general_info_image
+	.general_info_image
 	{
 		height: calc(100vw - 130px);
 	}
 	.general_info_content
 	{
-		height: calc(100vw - 160px);
+		height: calc(100vw - 140px);
 		padding-left: 40px;
 		padding-top: 25px
 	}
@@ -519,7 +525,7 @@
 	}
 	.general_info_list li:not(:last-child)
 	{
-		margin-bottom: 10px;
+		margin-bottom: 5px;
 	}
 	.general_info_icon
 	{
@@ -551,6 +557,7 @@
 	.main_title
 	{
 		font-size: 20px;
+		margin-top: 5px;
 	}
 	.main_subtitle
 	{
@@ -559,8 +566,12 @@
 	.about_title
 	{
 		font-size: 20px;
+		margin-top: 10px;
 	}
-	
+	.about_text
+	{
+		margin-top: 25px;
+	}
 }
 
 /************
@@ -622,7 +633,7 @@
 	}
 	.general_info_content
 	{
-		height: calc(100vw - 160px);
+		height: calc(100vw - 140px);
 		padding-left: 40px;
 		padding-top: 25px
 	}
@@ -639,7 +650,7 @@
 	}
 	.general_info_list li:not(:last-child)
 	{
-		margin-bottom: 10px;
+		margin-bottom: 5px;
 	}
 	.general_info_icon
 	{
@@ -671,6 +682,7 @@
 	.main_title
 	{
 		font-size: 20px;
+		margin-top: 5px;
 	}
 	.main_subtitle
 	{
@@ -679,8 +691,12 @@
 	.about_title
 	{
 		font-size: 20px;
+		margin-top: 10px;
 	}
-	
+	.about_text
+	{
+		margin-top: 25px;
+	}
 }
 
 /************
@@ -743,7 +759,7 @@
 	}
 	.general_info_content
 	{
-		height: calc(100vw - 160px);
+		height: calc(100vw - 140px);
 		padding-left: 40px;
 		padding-top: 25px
 	}
@@ -760,7 +776,7 @@
 	}
 	.general_info_list li:not(:last-child)
 	{
-		margin-bottom: 10px;
+		margin-bottom: 5px;
 	}
 	.general_info_icon
 	{
@@ -792,6 +808,7 @@
 	.main_title
 	{
 		font-size: 20px;
+		margin-top: 5px;
 	}
 	.main_subtitle
 	{
@@ -800,6 +817,10 @@
 	.about_title
 	{
 		font-size: 20px;
+		margin-top: 10px;
 	}
-	
+	.about_text
+	{
+		margin-top: 25px;
+	}
 }
