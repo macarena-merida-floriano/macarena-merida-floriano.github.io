@@ -472,15 +472,15 @@
 	}
 	.logo
 	{
-		font-size: 8px;
+		font-size: 12px;
 	}
 	.header.scrolled .logo
 	{
-		font-size: 8px;
+		font-size: 12px;
 	}
 	.menu
 	{
-		height: 200px;
+		height: 280px;
 		width: 100px;
 	}
 	.menu.active,
@@ -507,7 +507,7 @@
 	}
 	.general_info_content
 	{
-		height: calc(100vw - 150px);
+		height: calc(100vw - 160px);
 		padding-left: 40px;
 		padding-top: 25px
 	}
@@ -644,15 +644,15 @@
 	}
 	.logo
 	{
-		font-size: 8px;
+		font-size: 12px;
 	}
 	.header.scrolled .logo
 	{
-		font-size: 8px;
+		font-size: 12px;
 	}
 	.menu
 	{
-		height: 200px;
+		height: 280px;
 		width: 180px;
 	}
 	.menu.active,
@@ -679,7 +679,7 @@
 	}
 	.general_info_content
 	{
-		height: calc(100vw - 150px);
+		height: calc(100vw - 160px);
 		padding-left: 40px;
 		padding-top: 25px
 	}
@@ -814,15 +814,15 @@
 	}
 	.logo
 	{
-		font-size: 8px;
+		font-size: 12px;
 	}
 		.header.scrolled .logo
 	{
-		font-size: 8px;
+		font-size: 12px;
 	}
 	.menu
 	{
-		height: 200px;
+		height: 280px;
 		width: 180px;
 	}
 	.menu.active,
@@ -849,7 +849,7 @@
 	}
 	.general_info_content
 	{
-		height: calc(100vw - 150px);
+		height: calc(100vw - 160px);
 		padding-left: 40px;
 		padding-top: 25px
 	}
@@ -984,16 +984,16 @@
 	}
 	.logo
 	{
-		font-size: 8px;
+		font-size: 12px;
 	}
 	.header.scrolled .logo
 	{
-		font-size: 8px;
+		font-size: 12px;
 	}
 
 	.menu
 	{
-		height: 200px;
+		height: 280px;
 		width: 180px;
 	}
 	.menu.active,
@@ -1020,7 +1020,7 @@
 	}
 	.general_info_content
 	{
-		height: calc(100vw - 150px);
+		height: calc(100vw - 160px);
 		padding-left: 40px;
 		padding-top: 25px
 	}
