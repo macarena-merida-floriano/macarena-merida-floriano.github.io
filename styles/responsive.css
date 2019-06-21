@@ -105,11 +105,11 @@
 
 	.general_info_image
 	{
-		height: calc(100vw - 500px);
+		height: calc(100vw - 1200px);
 	}
 	.general_info_content
 	{
-		height: cacl(100vw - 500px);
+		height: cacl(100vw - 1200px);
 		padding-left: 40px;
 		padding-top: 25px;
 	}
@@ -119,12 +119,12 @@
 	}
 	.main_title
 	{
-		font-size: 20px;
+		font-size: 30px;
 		margin-top: 2px;
 	}
 	.main_subtitle
 	{
-		font-size: 16px;
+		font-size: 25px;
 	}
 	.about_title
 	{
@@ -135,7 +135,7 @@
 	{
 		margin-top: 15px;
 	}
-		.loader_container
+	.loader_container
 	{
 		width: 50%;
 		height: 130px;
