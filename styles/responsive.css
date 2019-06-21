@@ -94,8 +94,6 @@
 	.menu
 	{
 		display: block;
-		height: 200px;
-		width: 100px;
 	}
 	.header_button_2
 	{
@@ -107,11 +105,11 @@
 
 	.general_info_image
 	{
-		height: 50%;
+		height: calc(100vw - 130px);
 	}
 	.general_info_content
 	{
-		height: 50%;
+		height: cacl(100vw - 150px);
 		padding-left: 40px;
 		padding-top: 25px
 	}
