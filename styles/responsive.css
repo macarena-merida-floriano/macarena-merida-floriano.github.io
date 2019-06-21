@@ -78,6 +78,9 @@
 	
 }
 
+
+
+
 /************
 3. 1280px
 ************/
@@ -91,6 +94,8 @@
 	.menu
 	{
 		display: block;
+		height: 200px;
+		width: 100px;
 	}
 	.header_button_2
 	{
@@ -99,7 +104,130 @@
 		right: auto;
 		bottom: 10px;
 	}
+
+	.general_info_image
+	{
+		height: 50%;
+	}
+	.general_info_content
+	{
+		height: 50%;
+		padding-left: 40px;
+		padding-top: 25px
+	}
+	.general_info_title
+	{
+		font-size: 20px;
+		font-weight: 500;
+		color: #FFFFFF;
+		line-height: 0.8; 
+	}
+	.general_info_list
+	{
+		margin-top: 15px;
+	}
+	.general_info_list li:not(:last-child)
+	{
+		margin-bottom: 5px;
+	}
+	.general_info_icon
+	{
+		width: 18px;
+		height: 18px;
+		margin-right: 10px;
+	}
+
+	.general_info_text,
+	.general_info_text a
+	{
+		font-size: 12px;
+		color: #7a798c;
+		line-height: 0.8;
+	}
+	.main_content
+	{
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.main_content_scroll
+	{
+		padding-right: 0;
+	}
+	.main_title_container
+	{
+		height: 145px;
+	}
+	.main_title
+	{
+		font-size: 20px;
+		margin-top: 2px;
+	}
+	.main_subtitle
+	{
+		font-size: 16px;
+	}
+	.about_title
+	{
+		font-size: 20px;
+		margin-top: 5px;
+	}
+	.about_text
+	{
+		margin-top: 15px;
+	}
+		.loader_container
+	{
+		width: 50%;
+		height: 130px;
+		float: left;
+		padding-bottom: 70px;
+	}
+	.loader
+	{
+		width: 70px;
+		height: 70px;
+		margin: 0 auto;
+		background: transparent;
+	}
+	.loader_content
+	{
+		position: absolute;
+		left: 50%;
+		bottom: 0;
+		-webkit-transform: translateX(-50%);
+		-moz-transform: translateX(-50%);
+		-ms-transform: translateX(-50%);
+		-o-transform: translateX(-50%);
+		transform: translateX(-50%);
+		font-size: 10px;
+		font-weight: 400;
+		color: #232323;
+		white-space: nowrap;
+		text-align: center;
+	}
+	.loader_title
+	{
+		font-size: 10px;
+		font-weight: 400;
+		color: #100f3a;
+		text-transform: uppercase;
+		line-height: 0.75;
+	}
+	.loader_subtitle
+	{
+		font-size: 8px;
+		font-weight: 400;
+		color: #7a798c;
+		margin-top: 12px;
+	}
+	
 }
+
+
+
+
+
+
 
 /************
 4. 1199px
@@ -348,7 +476,7 @@
 	{
 		font-size: 8px;
 	}
-		.header.scrolled .logo
+	.header.scrolled .logo
 	{
 		font-size: 8px;
 	}
