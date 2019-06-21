@@ -105,11 +105,11 @@
 
 	.general_info_image
 	{
-		height: calc(100vw - 1200px);
+		height: calc(100vw - 800px);
 	}
 	.general_info_content
 	{
-		height: cacl(100vw - 1200px);
+		height: cacl(100vw - 1500px);
 		padding-left: 40px;
 		padding-top: 25px;
 	}
@@ -125,6 +125,12 @@
 	.main_subtitle
 	{
 		font-size: 25px;
+	}
+	.main_content_scroll
+	{
+		margin-top: 50px;
+		max-height: calc(100% - 93px - 50px - 10px);
+		padding-right: 60px;
 	}
 	.about_title
 	{
