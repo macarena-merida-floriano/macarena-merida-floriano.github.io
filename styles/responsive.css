@@ -126,6 +126,12 @@
 		color: #7a798c;
 		line-height: 0.8;
 	}
+	.general_info_icon
+	{
+		width: 18px;
+		height: 18px;
+		margin-right: 10px;
+	}
 	.main_title_container
 	{
 		height: 93px;
