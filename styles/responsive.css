@@ -166,15 +166,15 @@
 	}
 	.loader_container
 	{
-		width: 50%;
+		width: 25%;
 		height: 130px;
 		float: left;
 		padding-bottom: 70px;
 	}
 	.loader
 	{
-		width: 70px;
-		height: 70px;
+		width: 45px;
+		height: 45px;
 		margin: 0 auto;
 		background: transparent;
 	}
@@ -196,7 +196,7 @@
 	}
 	.loader_title
 	{
-		font-size: 10px;
+		font-size: 12px;
 		font-weight: 400;
 		color: #100f3a;
 		text-transform: uppercase;
@@ -204,7 +204,7 @@
 	}
 	.loader_subtitle
 	{
-		font-size: 8px;
+		font-size: 10px;
 		font-weight: 400;
 		color: #7a798c;
 		margin-top: 12px;
