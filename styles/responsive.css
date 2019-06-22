@@ -145,6 +145,10 @@
 	{
 		font-size: 25px;
 	}
+	.main_content
+	{
+		padding-left: 50px;
+	}
 	.main_content_scroll
 	{
 		margin-top: 50px;
