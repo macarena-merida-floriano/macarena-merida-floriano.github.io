@@ -113,6 +113,19 @@
 		padding-left: 40px;
 		padding-top: 25px;
 	}
+	.general_info_title
+	{
+		font-size: 20px;
+		font-weight: 500;
+		color: #FFFFFF;
+		line-height: 0.8; 
+	}
+	.general_info_text a
+	{
+		font-size: 12px;
+		color: #7a798c;
+		line-height: 0.8;
+	}
 	.main_title_container
 	{
 		height: 93px;
