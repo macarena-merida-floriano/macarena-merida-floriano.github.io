@@ -119,7 +119,7 @@ $(document).ready(function()
 
 	function initGoogleMap()
 	{
-		var myLatlng = new google.maps.LatLng(34.063685,-118.272936);
+		var myLatlng = new google.maps.LatLng(37.35695082447554,-5.938115410611785);
     	var mapOptions = 
     	{
     		center: myLatlng,
@@ -164,5 +164,6 @@ $(document).ready(function()
 			}, 1400);
 		});
 	}
+
 
 });
