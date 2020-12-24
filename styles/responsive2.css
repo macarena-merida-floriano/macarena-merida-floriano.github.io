@@ -29,6 +29,7 @@
 {
 	.header_button
 	{
+        top:0;
 		position: absolute;
 		right: 66px;
 		bottom: -80px;
@@ -39,6 +40,43 @@
 		width: 50%;
 		margin-bottom: 60px;
 	}
+    .general_info
+    {
+        width: 300px; /*473*/
+        height: 100%;
+        background: #000000;
+        position:fixed;
+    }
+    .general_info_image
+    {
+        width: 100%;
+        height: 300px;
+    }
+    .general_info_content
+    {
+        width: 100%;
+        height: 100%;
+        padding-left: 20px;
+        padding-top: 15px;
+        padding-right: 10px;
+        padding-bottom: 20px;
+        overflow: auto;
+    }
+    .general_info_title
+    {
+        line-height: 1;
+    }
+    .general_info_list
+    {
+        margin-top: 15px;
+    }
+    .main_content
+    {
+        padding-left: 350px;
+        margin-top: 20px;
+        margin-right:10px;
+        width:100%;
+    }
 }
 
 /************
@@ -47,26 +85,47 @@
 
 @media only screen and (max-width: 1440px)
 {
-	.general_info
-	{
-		width: 400px;
-	}
-	.general_info_image
-	{
-		height: 400px;
-	}
-	.general_info_content
-	{
-		padding-left: 50px;
-	}
+    .general_info
+    {
+        width: 300px; /*473*/
+        height: 100%;
+        background: #000000;
+        position:fixed;
+    }
+    .general_info_image
+    {
+        width: 100%;
+        height: 300px;
+    }
+    .general_info_content
+    {
+        width: 100%;
+        height: 100%;
+        padding-left: 20px;
+        padding-top: 15px;
+        padding-right: 10px;
+        padding-bottom: 20px;
+        overflow: auto;
+    }
+    .general_info_title
+    {
+        line-height: 1;
+    }
+    .general_info_list
+    {
+        margin-top: 15px;
+    }
+    .header_button
+    {
+        top:0;
+    }
 	.main_content
-	{
-		width: calc(100% - 400px);
-	}
-	.main_title
-	{
-		font-size: 72px;
-	}
+    {
+        padding-left: 350px;
+        margin-top: 20px;
+        margin-right:10px;
+        width:100%;
+    }
 }
 
 /************
@@ -75,11 +134,43 @@
 
 @media only screen and (max-width: 1380px)
 {
-	.milestone
-	{
-		width: 50%;
-		margin-bottom: 60px;
-	}
+	.main_content
+    {
+        padding-left: 350px;
+        margin-top: 20px;
+        margin-right:10px;
+        width:100%;
+    }
+    .general_info
+    {
+        width: 300px; /*473*/
+        height: 100%;
+        background: #000000;
+        position:fixed;
+    }
+    .general_info_image
+    {
+        width: 100%;
+        height: 300px;
+    }
+    .general_info_content
+    {
+        width: 100%;
+        height: 100%;
+        padding-left: 20px;
+        padding-top: 15px;
+        padding-right: 10px;
+        padding-bottom: 20px;
+        overflow: auto;
+    }
+    .general_info_title
+    {
+        line-height: 1;
+    }
+    .general_info_list
+    {
+        margin-top: 15px;
+    }
 }
 
 /************
@@ -103,6 +194,42 @@
 		right: auto;
 		bottom: 10px;
 	}
+    .main_content
+    {
+        padding-left:350px;
+        margin-right:5px;
+        width:100%;
+    }
+        .general_info
+    {
+        width: 300px; /*473*/
+        height: 100%;
+        background: #000000;
+        position:fixed;
+    }
+    .general_info_image
+    {
+        width: 100%;
+        height: 300px;
+    }
+    .general_info_content
+    {
+        width: 100%;
+        height: 100%;
+        padding-left: 20px;
+        padding-top: 15px;
+        padding-right: 10px;
+        padding-bottom: 20px;
+        overflow: auto;
+    }
+    .general_info_title
+    {
+        line-height: 1;
+    }
+    .general_info_list
+    {
+        margin-top: 15px;
+    }
 }
 
 /************
@@ -119,6 +246,7 @@
 	.general_info
 	{
 		width: 100%;
+        position:relative;
 	}
 	.main_content_outer
 	{
@@ -132,6 +260,7 @@
 	.main_content
 	{
 		width: 100%;
+        padding-left:0;
 	}
 	.general_info_content
 	{
@@ -140,10 +269,6 @@
 	.general_info_title
 	{
 		font-size: 24px;
-	}
-	.milestones
-	{
-		padding-bottom: 30px;
 	}
 }
 
@@ -225,6 +350,7 @@
 	.general_info_content
 	{
 		padding-bottom: 40px;
+        padding-top: 30px;
 	}
 	.main_content
 	{
@@ -238,15 +364,12 @@
 	{
 		font-size: 24px;
 	}
-	.main_content_scroll
-	{
-		padding-right: 30px;
-	}
-	.milestone
+	.loader_container
 	{
 		width: 100%;
 	}
 }
+
 
 /************
 11. 575px
@@ -321,6 +444,10 @@
 	.main_subtitle
 	{
 		font-size: 18px;
+	}
+	.about_title
+	{
+		font-size: 24px;
 	}
 }
 
