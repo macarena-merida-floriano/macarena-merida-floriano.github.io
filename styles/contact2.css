@@ -35,25 +35,20 @@
 }
 body
 {
-	font-family: 'Arial', Arial;
+	font-family: 'Arial', arial;
 	font-size: 14px;
 	font-weight: 400;
 	background: #FFFFFF;
 	color: #000000;
+    overflow-x:hidden;
 }
-html, body {   /*to avoid horizontal scrolling*/
-    max-width: 100%;
-    overflow-x: hidden;
-}
-
 div
 {
 	display: block;
 	position: relative;
-    text-align: justify;
-	-webkit-box-sizing: content-box;
-    -moz-box-sizing: content-box;
-    box-sizing: content-box;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 ul
 {
@@ -62,22 +57,22 @@ ul
 }
 p
 {
-	font-family: 'Arial', Arial;
+	font-family: 'Arial', arial;
 	font-size: 14px;
-	line-height: 1.5 /*1.85714*/;
+	line-height: 1.85714;
 	font-weight: 500;
-	color: #00000;
+	color: #000000;
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
 	text-shadow: rgba(0,0,0,.01) 0 0 1px;
 }
-p_txt
+p_w
 {
-	font-family: 'Arial', Arial;
-	font-size: 18px;
-	line-height: 1.5 /*1.85714*/;
+	font-family: 'Arial', arial;
+	font-size: 14px;
+	line-height: 1.85714;
 	font-weight: 500;
-	color: #00000;
+	color: #FFFFFF;
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
 	text-shadow: rgba(0,0,0,.01) 0 0 1px;
@@ -108,12 +103,12 @@ a, a:hover, a:visited, a:active, a:link
 p a:active
 {
 	position: relative;
-	color: #00000;
+	color: #808080;
 }
 p a:hover
 {
 	color: #FFFFFF;
-	background: #00000;
+	background: #000000;
 }
 p a:hover::after
 {
@@ -134,7 +129,7 @@ h4{font-size: 18px;}
 h5{font-size: 14px;}
 h1, h2, h3, h4, h5, h6
 {
-	font-family: 'Arial', Arial;
+	font-family: 'Arial', arial;
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
 	text-shadow: rgba(0,0,0,.01) 0 0 1px;
@@ -156,7 +151,7 @@ section
 {
 	display: block;
 	position: relative;
-	box-sizing: content-box;
+	box-sizing: border-box;
 }
 .clear
 {
@@ -219,12 +214,11 @@ section
 {
 	height: 100%;
 }
-.super_container /*General dimensions*/
+.super_container
 {
-	width: 95vw;
-    min-height: 10px;
-	/*height: 100vh;*/
-	overflow: hidden;
+	width: 100vw;
+	height: auto; /*100vh;*/
+	overflow: auto;
 	padding-left: 40px;
 	padding-bottom: 45px;
 	padding-right: 41px;
@@ -300,7 +294,7 @@ section
 .logo
 {
 	font-size: 20px;
-	font-weight: 600;
+	font-weight: 800;
 	color: #000000;
 	margin-right: 48px;
 	margin-top: -5px;
@@ -312,11 +306,11 @@ section
 }
 .header.scrolled .logo
 {
-	font-size: 20px;
+	font-size: 24px;
 }
-.logo span /** es el punto del logo**/
+.logo span
 {
-	color: #000000;
+	color: #808080;
 }
 .main_nav
 {
@@ -324,9 +318,9 @@ section
 }
 .main_nav ul
 {
-	background: #FFFFFF; /*son las lineas que separan el menu de navegacion*/
+	background: #FFFFFF;
 }
-.main_nav ul li /*son las celdas del menu de navegacion*/
+.main_nav ul li
 {
 	background: #000000;
 	-webkit-transition: all 200ms ease;
@@ -336,7 +330,7 @@ section
 	transition: all 200ms ease;
 }
 .main_nav ul li:hover,
-.main_nav ul li.active /*la celda de menu de navegacion activa en ese momento*/
+.main_nav ul li.active
 {
 	background: #808080;
 }
@@ -389,7 +383,7 @@ section
 .header_button:hover,
 .header_button_2:hover
 {
-	background: #000000;
+	background: #FFFFFF;
 }
 .header_button a,
 .header_button_2 a
@@ -426,17 +420,16 @@ section
 .main_content_outer
 {
 	width: 100%;
-	height: 100%;
+	height: auto;
 	background: #FFFFFF;
-	overflow: auto; /*hace que podamos desplazar por la página según el contenido que haya*/
+	overflow: auto;
 }
-.general_info /*contenedor del general info*/
+.general_info
 {
-	width: 350px;
+	width: 350px; /*473*/
 	height: 100%;
-    position: fixed;
 	background: #000000;
-    color: #FFFFFF;
+    position:fixed;
 }
 .general_info_image
 {
@@ -447,11 +440,11 @@ section
 {
 	width: 100%;
 	height: 100%;
-	padding-left: 20px;
+	padding-left: 27px;
 	padding-top: 49px;
-	padding-right: 20px;
+	padding-right: 15px;
 	padding-bottom: 20px;
-	overflow: scroll;
+	overflow: hidden;
 }
 .general_info_content_inner
 {
@@ -468,7 +461,6 @@ section
 .general_info_list
 {
 	margin-top: 34px;
-    line-height:1;
 }
 .general_info_list li:not(:last-child)
 {
@@ -488,7 +480,7 @@ section
 .general_info_text a
 {
 	font-size: 14px;
-	color: #FFFFFF;
+	color: #808080;
 	line-height: 1.2;
 }
 .general_info_text a
@@ -532,21 +524,15 @@ section
 }
 .main_content
 {
-	width: 100% /*calc(100% - 400px)*/;
-	/*height: 100%;*/
+	width: 100%;
+	height: 100%;
 	padding-left: 400px;
 	padding-right: 30px;
-}
-
-.main_twitter_container
-{
-    width: 25%;
-    height: 70%
 }
 .main_title_container
 {
 	width: 100%;
-	height: 193px; 
+	height: 193px;
 }
 .main_subtitle
 {
@@ -558,7 +544,7 @@ section
 .main_title
 {
 	font-size: 50px;
-	font-weight: 600;
+	font-weight: 800;
 	color: #000000;
 	line-height: 0.75;
 	margin-top: 12px;
@@ -569,13 +555,13 @@ section
 }
 .main_content_scroll
 {
-	margin-top: 50px; /*separación del nombre respecto al short bio*/
-	max-height: 100% /*calc(100% - 193px - 72px - 30px)*/;
+	margin-top: 50px;
+	max-height: calc(100% - 193px - 50px - 30px);
 	padding-right: 60px;
 }
 .mCS-minimal.mCSB_scrollTools .mCSB_draggerRail, .mCS-minimal-dark.mCSB_scrollTools .mCSB_draggerRail
 {
-	background: #000000;
+	background: #FFFFFF;
 }
 .mCS-minimal-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar
 {
@@ -585,7 +571,7 @@ section
 .about_title
 {
 	font-size: 30px;
-	font-weight: 500;
+	font-weight: 700;
 	color: #808080;
 }
 .about_text
@@ -595,13 +581,14 @@ section
 .loaders
 {
 	margin-top: 50px;
+    margin-bottom: 70px;
 }
 .loader_container
 {
 	width: 25%;
 	height: 265px;
 	float: left;
-	padding-bottom: 2px;
+	padding-bottom: 70px;
 }
 .loader
 {
@@ -716,7 +703,7 @@ section
 	font-size: 16px;
 	text-transform: uppercase;
 	font-weight: 700;
-	color: #100f3a;
+	color: #000000;
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
 	text-shadow: rgba(0,0,0,.01) 0 0 1px;
@@ -728,7 +715,7 @@ section
 }
 .menu_nav ul li a:hover
 {
-	color: #8583e1;
+	color: #808080;
 }
 .hamburger
 {
@@ -740,7 +727,7 @@ section
 	font-size: 16px;
 	text-transform: uppercase;
 	font-weight: 700;
-	color: #100f3a;
+	color: #000000;
 	letter-spacing: 0.05em;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
@@ -750,8 +737,9 @@ section
 }
 .hamburger:hover
 {
-	color: #7a798c;
+	color: #808080;
 }
+
 
 /*********************************
 5.1 Contact
@@ -792,7 +780,7 @@ section
 	background: transparent;
 	border: none;
 	outline: none;
-	border-bottom: solid 2px #000000;
+	border-bottom: solid 2px #838383;
 	margin-bottom: 16px;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
@@ -815,35 +803,35 @@ section
 	font-size: 12px !important;
 	font-weight: 500 !important;
 	font-style: italic;
-	color: #000000 !important;
+	color: #808080 !important;
 }
 .contact_input:-moz-placeholder
 {
 	font-size: 12px !important;
 	font-weight: 500 !important;
 	font-style: italic;
-	color: #000000 !important;
+	color: #808080 !important;
 }
 .contact_input::-moz-placeholder
 {
 	font-size: 12px !important;
 	font-weight: 500 !important;
 	font-style: italic;
-	color: #000000 !important;
+	color: #808080 !important;
 } 
 .contact_input:-ms-input-placeholder
 { 
 	font-size: 12px !important;
 	font-weight: 500 !important;
 	font-style: italic;
-	color: #000000 !important;
+	color: #808080!important;
 }
 .contact_input::input-placeholder
 {
 	font-size: 12px !important;
 	font-weight: 500 !important;
 	font-style: italic;
-	color: #000000 !important;
+	color: #808080 !important;
 }
 .contact_button
 {
@@ -877,6 +865,7 @@ section
 {
 	width: 100%;
 	height: 100%;
+	opacity: 0.76;
 }
 .google_map
 {
