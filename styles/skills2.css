@@ -382,7 +382,7 @@ section
 .header_button:hover,
 .header_button_2:hover
 {
-	background: #FFFFFF;
+	background: #808080;
 }
 .header_button a,
 .header_button_2 a
@@ -758,7 +758,7 @@ section
 	font-size: 18px;
 	font-weight: 600;
 	color: #808080;
-	line-height: 0.75;
+	line-height: 1;
 }
 .project_image
 {
