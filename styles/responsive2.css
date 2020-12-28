@@ -488,4 +488,8 @@
     {
         font-size:15px;
     }
+    .header.scrolled .logo
+    {
+	font-size: 15px;
+    }
 }
