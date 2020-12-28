@@ -430,6 +430,7 @@ section
 	height: 100%;
 	background: #000000;
     position:fixed;
+    z-index: 1;
 }
 .general_info_image
 {
