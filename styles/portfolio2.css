@@ -774,6 +774,7 @@ section
 .portfolio_grid
 {
 	width: 100%;
+    height:auto;
 }
 .portfolio_item
 {
@@ -843,6 +844,7 @@ section
 .portfolio_item_link
 {
 	margin-top: 7px;
+    color: #FFFFFF;
 }
 .portfolio_item_link a
 {
